@@ -11,6 +11,13 @@ export const feedbackAction = (feedback) => ({
   feedback
 })
 
+export const AURAL = 'AURAL';
+export const auralAction = (status) => ({
+  type: AURAL,
+  status
+
+})
+
 export const RESET = 'RESET';
 export const resetAction = () => ({
   type: RESET
